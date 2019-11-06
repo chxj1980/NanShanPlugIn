@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!--SDK/OCX/MP配置参数-->
+
+<Config>
+
+<SDKConfig>
+
+	<!--超时时间-->
+	<TimeOut>35</TimeOut>
+	<!--备份用户数据间隔时间-->
+    <BackUpInterval>30</BackUpInterval>
+	<!--客户端流控缓冲区上下限百分比-->
+    <LowerLimit>10</LowerLimit>
+	<UpperLimit>70</UpperLimit>
+	<!--SDK是否将UTF-8转码为ANSI，false-不转码，true-转码 -->
+	<IsTranslated>true</IsTranslated>
+	<!--是否需要使用用户名和密码进行断线重连，默认为1，0-不进行断线重连，1-需要断线重连-->
+	<ReConnectConfig>1</ReConnectConfig>
+	<!--是否启用图片加密, 默认为0, 0-不启用图片加密 1-启用图片加密-->
+	<ImageEncryptEnable>0</ImageEncryptEnable>
+</SDKConfig>
+
+<OCXConfig>
+    <!--前端智能分析轨迹叠加实况延时毫秒数（20~2000）语言为中文宋体Arial，大小为8-->
+    <PUIAVideoDelayValue>200</PUIAVideoDelayValue>
+	<!--平台智能分析轨迹叠加实况延时毫秒数（20~2000）语言为中文宋体Arial，大小为8-->
+    <PlatformIAVideoDelayValue>1000</PlatformIAVideoDelayValue>
+	<DefaultLanguage>zh-CN</DefaultLanguage>
+	<FontFamily>Arial</FontFamily>
+	<FontSize>8</FontSize>
+</OCXConfig>
+
+<MPConfig>
+    <!--rtsp日志级别,默认7 debug,级别详情:Emergency 0,Alert 1,Critical 2,Error 3,Warning 4,Notice 5,Info 6,Debug 7-->
+	<RTSPLogLevel>7</RTSPLogLevel>
+</MPConfig>
+
+<NetSourceConfig>
+	<!--netsource模块日志路径，相对库文件所在路径-->
+	<LogBasePath>../log</LogBasePath>
+</NetSourceConfig>
+
+<TVWallConfig>
+	<!--电视墙侦听解码器端口，默认为5050，最小为1025，最大为65535-->
+	<ListenPort>5050</ListenPort>
+</TVWallConfig>
+
+</Config>

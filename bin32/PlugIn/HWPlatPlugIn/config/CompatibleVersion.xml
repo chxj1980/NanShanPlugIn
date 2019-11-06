@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!--SDK/OCX/MPÅäÖÃ²ÎÊý-->
+
+<VersionInfo>
+
+<PC>
+	<MD5>8958fe8c4b24e51faaf0f5f846e8f84d</MD5>
+    <VersionNo>V100R002C20SPC200</VersionNo>
+</PC>
+
+<PC>
+    <MD5>2ef367cc9aa6cf1acacfef5090d06f17</MD5>
+    <VersionNo>V100R002C20SPC201</VersionNo>
+</PC>
+
+<PC>
+	<MD5>9eed7ffc1825b9e9b9f841518ec7ec9e</MD5>  
+    <VersionNo>V100R002C20SPC203</VersionNo>
+</PC>
+
+<PC>
+    <MD5>4e41751ab958716f5d51f391b9a605a1</MD5>
+    <VersionNo>V100R002C20SPC206</VersionNo>
+</PC>
+<PC>
+    <MD5>f71f87dcbd9fcae287da577a42edf4ed</MD5>
+    <VersionNo>V100R002C20SPC207</VersionNo>
+</PC>
+
+<PC>
+	<MD5>ea66e456a1f2689a26c54dc2adea3533</MD5>
+    <VersionNo>V100R002C50SPC100</VersionNo>
+</PC>
+
+<PC>
+    <MD5>9545d58c06b7a7ac2a24b736c96ec536</MD5> 
+    <VersionNo>V100R002C50SPC200</VersionNo>
+</PC>
+</VersionInfo>

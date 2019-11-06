@@ -1,0 +1,22 @@
+RD HWLOG /s /q
+DEL *.ilk
+DEL *.iobj
+DEL *.ipdb
+DEL *.pdb
+DEL *.tmp
+DEL PlugIn\DHPlugIn\*.ilk
+DEL PlugIn\DHPlugIn\*.iobj
+DEL PlugIn\DHPlugIn\*.ipdb
+DEL PlugIn\DHPlugIn\*.pdb
+DEL PlugIn\HKPlugIn\*.ilk
+DEL PlugIn\HKPlugIn\*.iobj
+DEL PlugIn\HKPlugIn\*.ipdb
+DEL PlugIn\HKPlugIn\*.pdb
+DEL PlugIn\HWPlugIn\*.ilk
+DEL PlugIn\HWPlugIn\*.iobj
+DEL PlugIn\HWPlugIn\*.ipdb
+DEL PlugIn\HWPlugIn\*.pdb
+DEL PlugIn\HWPlatPlugIn\*.ilk
+DEL PlugIn\HWPlatPlugIn\*.iobj
+DEL PlugIn\HWPlatPlugIn\*.ipdb
+DEL PlugIn\HWPlatPlugIn\*.pdb

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?> 
+<Log>
+  <LogBasePath></LogBasePath>			    <!--sdk相关模块日志路径，相对库文件所在路径-->
+  <ModuleType>IVS_SDK</ModuleType>				<!-- 内部模块名称 -->
+  <NodeCode></NodeCode>							<!-- 内部模块编号 -->
+  <LogBufferEnable>False</LogBufferEnable>		<!-- 写日志方式是缓存还是直接写（true为通过缓存），只对run和dbg日志生效 -->
+  <IsBufferDebugLog>True</IsBufferDebugLog>		<!-- 该开关只当debug日志关了的时候才有用，系统会缓存n条（n为下一个配置项）日志，当出现紧急级别日志时会把缓存的日志输出 -->
+  <BufferNumber>100</BufferNumber> 
+  <RunLog>										<!-- run日志配置项 -->
+    <FileNumber>10</FileNumber>					<!-- 日志文件个数，【5,10】 -->
+    <FileSize>20</FileSize>						<!-- 日志文件大小，单位为M，【10,30】 -->
+  </RunLog>
+  <DebugLog>									<!-- debug日志配置项 -->
+    <DebugLogSwitch>False</DebugLogSwitch>		<!-- 开关，False关闭，True打开 -->
+    <FileNumber>10</FileNumber>					<!-- 日志文件个数，【5,10】 -->
+    <FileSize>30</FileSize>						<!-- 日志文件大小，单位为M，【10,30】 -->
+  </DebugLog>
+</Log>
+

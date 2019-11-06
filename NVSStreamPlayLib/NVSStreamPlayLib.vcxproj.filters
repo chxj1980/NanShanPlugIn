@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="复用">
+      <UniqueIdentifier>{e3f4c8cf-ba78-45cf-a2e5-7d8590cb20f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ICE">
+      <UniqueIdentifier>{ee3a5831-deb7-4058-abcb-e74e65dd5c69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NVSCoreBiz.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NVSDVRNotice.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NVSIndexNoticeI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NVSMonitorNotifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NVSMonitorNotifierI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NVSNoticeThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NVSRightNoticeThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NVSStreamPlaySDK.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PaperForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSvrInfomation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamHandlerManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamProcess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HSVideoProcess.cpp">
+      <Filter>复用</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFileParam.cpp">
+      <Filter>复用</Filter>
+    </ClCompile>
+    <ClCompile Include="NVSErrorManage.cpp">
+      <Filter>复用</Filter>
+    </ClCompile>
+    <ClCompile Include="NVSHeartThread.cpp">
+      <Filter>复用</Filter>
+    </ClCompile>
+    <ClCompile Include="NVSProcessByDVR.cpp">
+      <Filter>复用</Filter>
+    </ClCompile>
+    <ClCompile Include="NVSStampCheck.cpp">
+      <Filter>复用</Filter>
+    </ClCompile>
+    <ClCompile Include="NVSStreamPlayLib.cpp">
+      <Filter>复用</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>复用</Filter>
+    </ClCompile>
+    <ClCompile Include="ZTThread.cpp">
+      <Filter>复用</Filter>
+    </ClCompile>
+    <ClCompile Include="NVSIndex4Monitor.cpp">
+      <Filter>ICE</Filter>
+    </ClCompile>
+    <ClCompile Include="NVSIndex4Stream.cpp">
+      <Filter>ICE</Filter>
+    </ClCompile>
+    <ClCompile Include="NVSIndexData.cpp">
+      <Filter>ICE</Filter>
+    </ClCompile>
+    <ClCompile Include="NVSStreamServiceAPI.cpp">
+      <Filter>ICE</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NVSCoreBiz.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NVSDVRNotice.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NVSIndexNoticeI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NVSMonitorNotifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NVSMonitorNotifierI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NVSNoticeThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NVSRightNoticeThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NVSStreamPlaySDK.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PaperForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSvrInfomation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamHandlerManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamProcess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamSource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HSVideoProcess.h">
+      <Filter>复用</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFileParam.h">
+      <Filter>复用</Filter>
+    </ClInclude>
+    <ClInclude Include="LoggerFile.h">
+      <Filter>复用</Filter>
+    </ClInclude>
+    <ClInclude Include="NVSCommDataBuf.h">
+      <Filter>复用</Filter>
+    </ClInclude>
+    <ClInclude Include="NVSErrorManage.h">
+      <Filter>复用</Filter>
+    </ClInclude>
+    <ClInclude Include="NVSHeartThread.h">
+      <Filter>复用</Filter>
+    </ClInclude>
+    <ClInclude Include="NVSProcessByDVR.h">
+      <Filter>复用</Filter>
+    </ClInclude>
+    <ClInclude Include="NVSStampCheck.h">
+      <Filter>复用</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>复用</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>复用</Filter>
+    </ClInclude>
+    <ClInclude Include="ZTThread.h">
+      <Filter>复用</Filter>
+    </ClInclude>
+    <ClInclude Include="NVSIndex4Monitor.h">
+      <Filter>ICE</Filter>
+    </ClInclude>
+    <ClInclude Include="NVSIndex4Stream.h">
+      <Filter>ICE</Filter>
+    </ClInclude>
+    <ClInclude Include="NVSIndexData.h">
+      <Filter>ICE</Filter>
+    </ClInclude>
+    <ClInclude Include="NVSStreamServiceAPI.h">
+      <Filter>ICE</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NVSStreamPlayLib.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NVSIndex4Monitor.ice">
+      <Filter>ICE</Filter>
+    </None>
+    <None Include="NVSIndex4Stream.ice">
+      <Filter>ICE</Filter>
+    </None>
+    <None Include="NVSIndexData.ice">
+      <Filter>ICE</Filter>
+    </None>
+    <None Include="NVSStreamServiceAPI.ice">
+      <Filter>ICE</Filter>
+    </None>
+  </ItemGroup>
+</Project>
